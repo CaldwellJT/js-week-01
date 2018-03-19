@@ -78,10 +78,10 @@ const thatModulusTho = () =>
  * by filling in the empty strings ('') with the right answers.
  */
 
-const whatTypePartOne = () => typeof 42 === 'integer'
+const whatTypePartOne = () => typeof 42 === 'number'
 
 
-const whatTypePartTwo = () => typeof 0XF === 'integer'
+const whatTypePartTwo = () => typeof 0XF === 'number'
 
 
 const whatTypePartThree = () => typeof 'yo-yo' === 'string'
@@ -96,7 +96,7 @@ const whatTypePartFive = () => typeof 'true' === 'string'
 const whatTypePartSix = () => typeof false === 'boolean'
 
 
-const whatTypePartSeven = () => typeof [1, 2, 3] === 'array' // this one's tricky
+const whatTypePartSeven = () => typeof [1, 2, 3] === 'object' // this one's tricky
 
 
 
